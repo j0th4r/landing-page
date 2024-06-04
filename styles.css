@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -40,15 +40,16 @@ body {
   margin-top: 8px;
 }
 
-button {
+.btn1 {
   font-weight: 600;
   padding: 9px 27px;
   color:#f9faf8;
   background: #3882f6;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   border: none;
   border-radius: 8px;
   font-size: 18px;
+  border-color: #f9faf8;
 }
 
 .right {
@@ -58,7 +59,7 @@ button {
   flex:1;
   padding: 108px 0px;
   font-size: 18px;
-  background: #a7a9ab;
+  background: #9ea0a3;
 }
 
 .left {
@@ -89,6 +90,7 @@ button {
 
 .section3 {
   background-color: #e5e7eb;
+  padding: 20px 240px;
 }
 
 .section4 {
@@ -116,3 +118,119 @@ h2 {
   margin: 0;
   font-size: 2em;
 }
+
+/* PAGE 2 */
+
+.info-header {
+  color:#1f2937;
+  display:flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 36px;
+  font-weight: 900;
+  padding:40px;
+}
+
+.content2 {
+  display:flex;
+  justify-content: center;
+  gap:52px;
+  align-items: flex-start;
+  display: flex;
+  flex:1;
+}
+
+.info{
+  width:170px;
+  text-align: center;
+  font-size: 18px;
+  color: #626365;
+}
+
+.square{
+  padding:80px;
+  border: 4px;
+  border-style: solid;
+  border-color: #3882f6;
+  border-radius: 16px;
+  margin-bottom: 8px;
+}
+
+/* PAGE 3 */
+
+.content3 {
+  display:flex;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  flex:1;
+  flex-direction: column;
+}
+
+.quote{
+  display: flex;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.author {
+  display: flex;
+  font-weight: 900;
+  color: #1f2937;
+  font-size: 18px;
+}
+
+/* PAGE 4 */
+
+.content4 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex:1;
+}
+
+.modal {
+  background: #3882f6;
+  display: flex;
+  flex:1;
+  padding: 40px 80px;
+  border-radius: 8px;
+  
+}
+.left4 {
+  flex: 2;
+  color:#e5e7eb;
+  display:flex;
+  flex-direction: column;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+.right4 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.subhead2 {
+  font-size: 24px;
+  font-weight:900;
+  margin-bottom: 8px;
+}
+
+.btn2 {
+  font-weight: 600;
+  padding: 9px 27px;
+  color:#f9faf8;
+  background: #3882f6;
+  font-family: 'Roboto', sans-serif;
+  border: 2px solid;
+  border-color: #f9faf8;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+
